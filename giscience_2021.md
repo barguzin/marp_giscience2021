@@ -348,6 +348,9 @@ sc.plot(highlight="06") # this filters out CA
   <img src="https://www.giscience.org/img/giscience_icon.png" width="200" />
   </div>
   <div class="container">
+  <img src="https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png" width="70" />
+  </div>
+  <div class="container">
   <p style="font-size:20px">The authors gratefully acknowledge the support from the National Science Foundation Award BCS # 2043202 “CAREER: Modeling Movement and Behavior Responses to Environmental Disruptions”.</p>
   </div>
   </center>
