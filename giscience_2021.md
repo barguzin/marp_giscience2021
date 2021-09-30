@@ -86,7 +86,7 @@ mark {
 
 # Problem 
 
-- Most common visual display in the geostack (PySAL, GeoDa, ArcGIS, QGIS, spdep, etc.) utilize choropleth maps, where statistically significant clusters (hotspots/coldspots) are denoted in blue/red. 
+- Most common visual display in the geostack (PySAL, GeoDa, ArcGIS, QGIS, spdep, etc.) utilize choropleth maps, where statistically significant clusters (hotspots/coldspots) are denoted in red/blue. 
 - While this graphical display is ideally suited for purely spatial data, spatiotemporal and multivariate representations are problematic. How do we plot study areas with large number of spatial units? 
 
 ---
@@ -137,7 +137,6 @@ pip install -i https://test.pypi.org/simple/VASA
 # Assessing COVID-19 induced mobility in USA in 2020 
 
 * 2 data sources: *SafeGraph* (Open) & *Cuebiq* (Proprietary)
-* 2 metrics: *%-sheltered* at home & *distance travelled*
 * Approximately 3,200 counties over the period of 2020 (daily data)
 
 ![](https://i.imgur.com/8jN1sX6.png)
@@ -205,7 +204,7 @@ v = VASA(
 
 ---
 
-# Impute missing values
+<!-- # Impute missing values
 
 <mark style="background: #5ec3ae; color: white"> Caution! VASA is very finicky about missing values!</mark>
 
@@ -219,7 +218,7 @@ v.fill_missing()
 ```
 > <VASA.vasa.VASA at 0x7f844422e250>
 
----
+--- -->
 
 # Build Spatial Weights Matrix 
 
@@ -240,7 +239,7 @@ v.show_weights_connection(k=3, type="union")
 stacked.plot_both(a=2500, b=600)
 ```
 
-<span style="color:red">hotspots</span>:high values co-located with other high values. 
+<span style="color:red">hotspots</span>: high values co-located with other high values. 
 <span style="color:blue">coldspots</span>: low values co-located with other low values. 
 Clustering <mark>**consistency**</mark> is illustrated by **size**. 
 Clustering <mark>**recency**</mark> is depicted by **color intensity**.
@@ -331,7 +330,8 @@ sc.plot(highlight="06") # this filters out CA
   </center>
 </div>
 
-<span><center>[Connect with us](https://move.geog.ucsb.edu/)</span>
+<span><center>noi@ucsb.edu</span>
+<span><center>geog-move@ucsb.edu</span>
 
 <div class="image123">
 <center>
