@@ -233,7 +233,7 @@ v.show_weights_connection(k=3, type="union")
 
 # Recency and Consistency Map 
 
-> Better suited to study the aggregate (summary-level) details. 
+> Better suited to study macro trends at aggregate (summary) level. 
 
 ```python
 stacked.plot_both(a=2500, b=600)
@@ -256,7 +256,7 @@ Clustering <mark>**recency**</mark> is depicted by **color intensity**.
 
 # Line-path scatter plot
 
-> Better suited to study the finer (object-level) details. 
+> Better suited to study micro trends (object-level details). 
 
 ```python
 from VASA.scatter import Scatter
